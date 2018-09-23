@@ -1,5 +1,5 @@
 {
-  "name": "react-component-kit",
+  "name": "rasmus-react-component-kit",
   "version": "0.1.0",
   "description": "A simple React UI component kit.",
   "main": "dist/index.js",
