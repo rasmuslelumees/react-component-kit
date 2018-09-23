@@ -1,0 +1,51 @@
+.rui__user-card {
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 180px;
+}
+
+.rui__user-card__avatar {
+    position: relative;
+    flex: 0 0 32px;
+    height: 32px;
+    border-radius: 32px;
+    margin-right: 12px;
+    background: #f1f1f1;
+    background-size: cover;
+}
+
+.rui__user-card__avatar-status {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #fff;
+    background-color: #ccc;
+}
+
+.rui__user-card__info {
+    min-width: 0;
+}
+
+.rui__user-card__name {
+    font-weight: 700;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 1px;
+}
+
+.rui__user-card__status-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
