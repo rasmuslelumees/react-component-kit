@@ -1,0 +1,28 @@
+{
+  "name": "react-component-kit",
+  "version": "0.1.0",
+  "description": "A simple React UI component kit.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/rasmuslelumees/react-component-kit.git",
+  "author": "Rasmus Lelumees <rasmus.lelumees@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build-examples": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build": "rimraf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "^1.1.5",
+    "rimraf": "^2.6.2"
+  }
+}

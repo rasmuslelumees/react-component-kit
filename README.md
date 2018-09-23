@@ -1,2 +1,2 @@
-# user-card
-User card React UI component
+# React UI kit
+My personal React UI kit for awesome components.
