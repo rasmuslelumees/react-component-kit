@@ -20,8 +20,8 @@ yarn add rasmus-react-component-kit
 Use the UserCard component like any other React component:
 ```
 import React from 'react';
-import { render } from "react-dom";
-import { UserCard } from "./lib";
+import { render } from 'react-dom';
+import { UserCard } from 'rasmus-react-component-kit';
 
 const App = () => (
     <div>
